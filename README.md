@@ -6,12 +6,12 @@
 Также поддержано кэширование списка и пагинация, приложение построено по принципам Clean Architecture.
 
 ## Стек технологий:
-**Архитектура:** MVVM, Clean Architecture
-**Асинхронность:** Kotlin Flow, Coroutines    
+**Архитектура:** MVVM, Clean Architecture  
+**Асинхронность:** Kotlin Flow, Coroutines  
 **Сеть:** Retrofit, OkHttp  
 **Хранение данных:** Room  
-**DI:** Dagger Hilt
-**UI:** XML, ViewBinding, Navigation Component, Material Design
+**DI:** Dagger Hilt  
+**UI:** XML, ViewBinding, Navigation Component, Material Design  
 
 ## Демонстрация работы
 <p align="center">
