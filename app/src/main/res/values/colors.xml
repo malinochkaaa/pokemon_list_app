@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="detail_background_color">#F5F5F5</color>
+    <color name="stat_hp_color">#FF5959</color>
+    <color name="stat_attack_color">#F5AC78</color>
+    <color name="stat_defense_color">#FAE078</color>
+    <color name="stat_speed_color">#FA92B2</color>
+    <color name="type_fire">#FD7D24</color>
+    <color name="type_water">#4592C4</color>
+    <color name="type_grass">#9BCC50</color>
+    <color name="type_electric">#EED535</color>
+    <color name="type_psychic">#F366B9</color>
+    <color name="type_normal">#A4ACAF</color>
+</resources>

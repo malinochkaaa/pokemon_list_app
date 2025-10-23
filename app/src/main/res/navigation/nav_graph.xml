@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pokemonListFragment">
+
+    <fragment
+        android:id="@+id/pokemonListFragment"
+        android:name="com.example.pokemonlist.presentation.ui.pokemon_list.PokemonListFragment"
+        android:label="Pokédex"
+        tools:layout="@layout/fragment_pokemon_list">
+
+        <action
+            android:id="@+id/action_list_to_detail"
+            app:destination="@id/pokemonDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right">
+            <argument
+                android:name="pokemonId"
+                app:argType="integer"/>
+        </action>
+
+        <action
+            android:id="@+id/action_list_to_filter"
+            app:destination="@id/filterFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_down"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/pokemonDetailFragment"
+        android:name="com.example.pokemonlist.presentation.ui.detail.PokemonDetailFragment"
+        android:label="Pokemon Details"
+        tools:layout="@layout/fragment_pokemon_detail">
+
+        <argument
+            android:name="pokemonId"
+            app:argType="integer"/>
+
+        <argument
+            android:name="pokemonName"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue=""/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="com.example.pokemonlist.presentation.ui.filter.FilterFragment"
+        android:label="Filters"
+        tools:layout="@layout/fragment_filter">
+
+        <argument
+            android:name="currentFilters"
+            app:argType="com.example.pokemonlist.domain.model.PokemonFilters"
+            app:nullable="true"/>
+
+    </fragment>
+</navigation>

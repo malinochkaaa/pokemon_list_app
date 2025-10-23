@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PokemonList</string>
+    <string name="pokemon_image_description">Image of the Pokemon</string>
+    <string name="height_label">Height</string>
+    <string name="weight_label">Weight</string>
+    <string name="stat_hp">HP</string>
+    <string name="stat_attack">Attack</string>
+    <string name="stat_defense">Defense</string>
+    <string name="stat_speed">Speed</string>
+    <string name="error_loading_details">Failed to load details</string>
+    <string name="pokemon_id_text">#%1$s</string>
+    <string name="pokemon_height_text">%.1f m</string>
+    <string name="pokemon_weight_text">%.1f kg</string>
+</resources>
