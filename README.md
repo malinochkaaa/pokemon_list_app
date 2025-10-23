@@ -14,7 +14,9 @@
 **UI:** XML, ViewBinding, Navigation Component, Material Design
 
 ## Демонстрация работы
-
+<p align="center">
+  <img src="./docs/pokemon_demo_recording.gif" width="320" alt="Демонстрация работы приложения" />
+</p>
 
 ## Скриншоты
 <p align="center">
